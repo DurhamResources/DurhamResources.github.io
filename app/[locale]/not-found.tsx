@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Home, Search } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { useLocale } from 'next-intl';
 
 export default function NotFound() {
   return (
@@ -15,13 +16,13 @@ export default function NotFound() {
           Let&apos;s help you find food assistance.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link href="/">
+          <Link href="/en">
             <Button size="lg" className="gap-2">
               <Home className="h-5 w-5" />
               Go Home
             </Button>
           </Link>
-          <Link href="/search">
+          <Link href="/en/search">
             <Button size="lg" variant="outline" className="gap-2">
               <Search className="h-5 w-5" />
               Search Pantries

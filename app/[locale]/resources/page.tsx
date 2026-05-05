@@ -1,4 +1,4 @@
-import { getLocale, getTranslations } from 'next-intl/server';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { ResourcesContent } from '@/components/resources-content';
 import type { Metadata } from 'next';
 
@@ -7,8 +7,14 @@ export const metadata: Metadata = {
   description: 'Find SNAP enrollment, WIC, community meal programs, emergency assistance, and other food resources in Durham County, NC.',
 };
 
-export default async function ResourcesPage() {
-  const locale = await getLocale();
+interface ResourcesPageProps {
+  params: Promise<{ locale: string }>;
+}
+
+export default async function ResourcesPage({ params }: ResourcesPageProps) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  
   const t = await getTranslations('resources');
 
   return (

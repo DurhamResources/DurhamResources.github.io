@@ -1,11 +1,11 @@
 'use client';
 
 import { useState } from 'react';
-import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { Search, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
+import { useRouter } from '@/lib/navigation';
 import { cn } from '@/lib/utils';
 
 interface ZipSearchFormProps {
@@ -63,7 +63,7 @@ export function ZipSearchForm({ variant = 'hero', className }: ZipSearchFormProp
             }}
             placeholder={t('searchPlaceholder')}
             className={cn(
-              'pl-10 bg-white border-border',
+              'pl-10 bg-white text-foreground border-border',
               isHero ? 'h-14 text-lg' : 'h-10',
               error && 'border-destructive focus-visible:ring-destructive'
             )}

@@ -1,6 +1,6 @@
 'use client';
 
-import Link from 'next/link';
+import { Link } from '@/lib/navigation';
 import { useTranslations } from 'next-intl';
 import { MapPin, Phone, Clock, ChevronRight } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';

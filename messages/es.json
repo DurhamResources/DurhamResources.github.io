@@ -13,6 +13,11 @@
       "about": "Acerca de"
     }
   },
+  "home": {
+    "featuredTitle": "Despensas de Alimentos Destacadas",
+    "featuredSubtitle": "Encuentre ayuda cerca de usted hoy",
+    "viewAllPantries": "Ver Todas las Despensas"
+  },
   "hero": {
     "title": "Encuentre Asistencia Alimentaria Cerca de Usted",
     "subtitle": "Busque entre más de 40 despensas de alimentos, comedores y programas de comidas en el Condado de Durham",
@@ -87,6 +92,11 @@
     "crisis": "¿Necesita ayuda inmediata? Llame al 211 o a la Línea de Crisis de Durham",
     "cityOf": "Ciudad de Durham",
     "department": "Departamento de Servicios Sociales",
+    "quickLinks": "Enlaces Rápidos",
+    "home": "Inicio",
+    "findFood": "Buscar Comida",
+    "additionalResources": "Recursos Adicionales",
+    "legal": "Legal",
     "privacy": "Política de Privacidad",
     "accessibility": "Accesibilidad",
     "contact": "Contáctenos",
@@ -114,5 +124,25 @@
     "friday": "Viernes",
     "saturday": "Sábado",
     "sunday": "Domingo"
+  },
+  "services": {
+    "Groceries": "Comestibles",
+    "Fresh Produce": "Productos Frescos",
+    "Hot Meals": "Comidas Calientes",
+    "Baby Supplies": "Artículos para Bebés",
+    "Pet Food": "Comida para Mascotas",
+    "Delivery Available": "Entrega Disponible",
+    "Prepared Meals": "Comidas Preparadas",
+    "Diabetic-Friendly Options": "Opciones para Diabéticos",
+    "Hygiene Products": "Productos de Higiene",
+    "Clothing": "Ropa",
+    "Senior Services": "Servicios para Adultos Mayores",
+    "Mobile Pantry": "Despensa Móvil",
+    "Food Boxes": "Cajas de Alimentos",
+    "Canned Goods": "Productos Enlatados",
+    "Frozen Foods": "Alimentos Congelados",
+    "Dairy": "Lácteos",
+    "Bread": "Pan",
+    "USDA Commodities": "Productos del USDA"
   }
 }

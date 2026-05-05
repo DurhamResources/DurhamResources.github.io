@@ -1,11 +1,12 @@
 import { notFound } from 'next/navigation';
-import { getLocale } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 import { PantryDetail } from '@/components/pantry-detail';
 import { pantries } from '@/lib/data/pantries';
+import { locales } from '@/i18n/config';
 import type { Metadata } from 'next';
 
 interface PantryPageProps {
-  params: Promise<{ id: string }>;
+  params: Promise<{ locale: string; id: string }>;
 }
 
 export async function generateMetadata({ params }: PantryPageProps): Promise<Metadata> {
@@ -28,15 +29,22 @@ export async function generateMetadata({ params }: PantryPageProps): Promise<Met
   };
 }
 
-export async function generateStaticParams() {
-  return pantries.map((pantry) => ({
-    id: pantry.id,
-  }));
+export function generateStaticParams() {
+  const params: { locale: string; id: string }[] = [];
+  
+  for (const locale of locales) {
+    for (const pantry of pantries) {
+      params.push({ locale, id: pantry.id });
+    }
+  }
+  
+  return params;
 }
 
 export default async function PantryPage({ params }: PantryPageProps) {
-  const { id } = await params;
-  const locale = await getLocale();
+  const { locale, id } = await params;
+  
+  setRequestLocale(locale);
   
   const pantry = pantries.find(p => p.id === id);
   

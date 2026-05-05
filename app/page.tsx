@@ -1,13 +1,6 @@
-import { HeroSection } from '@/components/hero-section';
-import { FeaturedPantries } from '@/components/featured-pantries';
-import { QuickResources } from '@/components/quick-resources';
+import { redirect } from 'next/navigation';
+import { defaultLocale } from '@/i18n/config';
 
-export default function HomePage() {
-  return (
-    <>
-      <HeroSection />
-      <FeaturedPantries />
-      <QuickResources />
-    </>
-  );
+export default function RootPage() {
+  redirect(`/${defaultLocale}`);
 }

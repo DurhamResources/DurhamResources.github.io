@@ -1,8 +1,8 @@
 'use client';
 
-import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { Phone } from 'lucide-react';
+import { Link } from '@/lib/navigation';
 
 export function Footer() {
   const t = useTranslations('footer');
@@ -59,21 +59,21 @@ export function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-semibold mb-4">Quick Links</h3>
+            <h3 className="font-semibold mb-4">{t('quickLinks')}</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="/" className="text-muted-foreground hover:text-foreground transition-colors">
-                  Home
+                  {t('home')}
                 </Link>
               </li>
               <li>
                 <Link href="/search" className="text-muted-foreground hover:text-foreground transition-colors">
-                  Find Food
+                  {t('findFood')}
                 </Link>
               </li>
               <li>
                 <Link href="/resources" className="text-muted-foreground hover:text-foreground transition-colors">
-                  Additional Resources
+                  {t('additionalResources')}
                 </Link>
               </li>
             </ul>
@@ -81,20 +81,20 @@ export function Footer() {
 
           {/* Contact & Legal */}
           <div>
-            <h3 className="font-semibold mb-4">Legal</h3>
+            <h3 className="font-semibold mb-4">{t('legal')}</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link href="/#" className="text-muted-foreground hover:text-foreground transition-colors">
                   {t('privacy')}
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link href="/#" className="text-muted-foreground hover:text-foreground transition-colors">
                   {t('accessibility')}
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link href="/#" className="text-muted-foreground hover:text-foreground transition-colors">
                   {t('contact')}
                 </Link>
               </li>

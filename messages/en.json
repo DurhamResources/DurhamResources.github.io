@@ -13,6 +13,11 @@
       "about": "About"
     }
   },
+  "home": {
+    "featuredTitle": "Featured Food Pantries",
+    "featuredSubtitle": "Find help near you today",
+    "viewAllPantries": "View All Pantries"
+  },
   "hero": {
     "title": "Find Food Assistance Near You",
     "subtitle": "Search over 40 food pantries, soup kitchens, and meal programs in Durham County",
@@ -87,6 +92,11 @@
     "crisis": "Need immediate help? Call 211 or the Durham Crisis Line",
     "cityOf": "City of Durham",
     "department": "Department of Social Services",
+    "quickLinks": "Quick Links",
+    "home": "Home",
+    "findFood": "Find Food",
+    "additionalResources": "Additional Resources",
+    "legal": "Legal",
     "privacy": "Privacy Policy",
     "accessibility": "Accessibility",
     "contact": "Contact Us",
@@ -114,5 +124,25 @@
     "friday": "Friday",
     "saturday": "Saturday",
     "sunday": "Sunday"
+  },
+  "services": {
+    "Groceries": "Groceries",
+    "Fresh Produce": "Fresh Produce",
+    "Hot Meals": "Hot Meals",
+    "Baby Supplies": "Baby Supplies",
+    "Pet Food": "Pet Food",
+    "Delivery Available": "Delivery Available",
+    "Prepared Meals": "Prepared Meals",
+    "Diabetic-Friendly Options": "Diabetic-Friendly Options",
+    "Hygiene Products": "Hygiene Products",
+    "Clothing": "Clothing",
+    "Senior Services": "Senior Services",
+    "Mobile Pantry": "Mobile Pantry",
+    "Food Boxes": "Food Boxes",
+    "Canned Goods": "Canned Goods",
+    "Frozen Foods": "Frozen Foods",
+    "Dairy": "Dairy",
+    "Bread": "Bread",
+    "USDA Commodities": "USDA Commodities"
   }
 }

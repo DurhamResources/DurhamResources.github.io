@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import Link from 'next/link';
+import { Link } from '@/lib/navigation';
 import { 
   MapPin, Phone, Globe, Clock, ChevronLeft, 
   Navigation, Share2, Check, Info, Users

@@ -1,11 +1,11 @@
 'use client';
 
-import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { LanguageSwitcher } from './language-switcher';
 import { Button } from '@/components/ui/button';
+import { Link } from '@/lib/navigation';
 import { cn } from '@/lib/utils';
 
 export function Header() {

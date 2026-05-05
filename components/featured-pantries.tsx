@@ -1,11 +1,11 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import Link from 'next/link';
 import { Clock, MapPin, Phone, ChevronRight } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
+import { Link } from '@/lib/navigation';
 import { pantries } from '@/lib/data/pantries';
 import { isPantryOpen, formatTime, getTodayHours, getNextOpenTime } from '@/lib/pantry-utils';
 
@@ -13,6 +13,8 @@ export function FeaturedPantries() {
   const t = useTranslations('pantry');
   const tCommon = useTranslations('common');
   const tDays = useTranslations('days');
+  const tHome = useTranslations('home');
+  const tServices = useTranslations('services');
   
   // Get first 3 active pantries
   const featuredPantries = pantries.filter(p => p.active).slice(0, 3);
@@ -21,8 +23,8 @@ export function FeaturedPantries() {
     <section className="py-16 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-10">
-          <h2 className="text-2xl md:text-3xl font-bold mb-2">Featured Food Pantries</h2>
-          <p className="text-muted-foreground">Find help near you today</p>
+          <h2 className="text-2xl md:text-3xl font-bold mb-2">{tHome('featuredTitle')}</h2>
+          <p className="text-muted-foreground">{tHome('featuredSubtitle')}</p>
         </div>
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -79,7 +81,7 @@ export function FeaturedPantries() {
                   <div className="flex flex-wrap gap-1 pt-2">
                     {pantry.services.slice(0, 3).map((service) => (
                       <Badge key={service} variant="outline" className="text-xs">
-                        {service}
+                        {tServices(service as keyof IntlMessages['services'])}
                       </Badge>
                     ))}
                   </div>
@@ -99,7 +101,7 @@ export function FeaturedPantries() {
         <div className="text-center mt-10">
           <Link href="/search">
             <Button size="lg" className="gap-2">
-              {tCommon('viewAll')} Pantries
+              {tHome('viewAllPantries')}
               <ChevronRight className="h-4 w-4" aria-hidden="true" />
             </Button>
           </Link>
