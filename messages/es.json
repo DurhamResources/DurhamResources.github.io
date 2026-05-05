@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "title": "Ayuda Alimentaria de Durham | Encuentre Asistencia Cerca de Usted",
+    "description": "Encuentre despensas de alimentos, comedores comunitarios y programas de asistencia alimentaria en el Condado de Durham, NC. Busque por código postal para encontrar ayuda cerca de usted."
+  },
+  "header": {
+    "title": "Ayuda Alimentaria de Durham",
+    "tagline": "Ciudad de Durham, NC",
+    "nav": {
+      "home": "Inicio",
+      "search": "Buscar Comida",
+      "resources": "Recursos",
+      "about": "Acerca de"
+    }
+  },
+  "hero": {
+    "title": "Encuentre Asistencia Alimentaria Cerca de Usted",
+    "subtitle": "Busque entre más de 40 despensas de alimentos, comedores y programas de comidas en el Condado de Durham",
+    "searchPlaceholder": "Ingrese su código postal",
+    "searchButton": "Buscar",
+    "invalidZip": "Por favor ingrese un código postal válido de 5 dígitos",
+    "stats": {
+      "pantries": "Despensas de Alimentos",
+      "meals": "Comidas Servidas Semanalmente",
+      "languages": "Idiomas Disponibles"
+    }
+  },
+  "search": {
+    "title": "Despensas de Alimentos Cerca de",
+    "resultsCount": "{count} ubicaciones encontradas",
+    "noResults": "No se encontraron despensas de alimentos cerca de este código postal",
+    "noResultsSuggestion": "Intente buscar un código postal cercano de Durham",
+    "filters": {
+      "title": "Filtrar Resultados",
+      "openNow": "Abierto Ahora",
+      "walkIn": "Sin Cita Previa",
+      "languages": "Idiomas",
+      "services": "Servicios"
+    },
+    "sort": {
+      "distance": "Distancia",
+      "name": "Nombre"
+    },
+    "neighboringCounty": "Condado Vecino"
+  },
+  "pantry": {
+    "open": "Abierto Ahora",
+    "closed": "Cerrado",
+    "opensAt": "Abre a las {time}",
+    "closesAt": "Cierra a las {time}",
+    "directions": "Cómo Llegar",
+    "call": "Llamar",
+    "website": "Visitar Sitio Web",
+    "share": "Compartir",
+    "walkIn": "Sin Cita Previa",
+    "appointmentRequired": "Se Requiere Cita",
+    "lastVerified": "Última verificación {date}",
+    "hours": "Horario",
+    "eligibility": "Requisitos",
+    "services": "Servicios",
+    "languagesSpoken": "Idiomas Disponibles",
+    "contact": "Información de Contacto"
+  },
+  "resources": {
+    "title": "Recursos Adicionales",
+    "subtitle": "Además de las despensas de alimentos, Durham ofrece muchos programas para ayudarle a usted y su familia",
+    "categories": {
+      "government": {
+        "title": "Asistencia del Gobierno",
+        "description": "Programas federales y estatales de asistencia alimentaria"
+      },
+      "community": {
+        "title": "Programas Comunitarios",
+        "description": "Programas locales de comidas y nutrición escolar"
+      },
+      "emergency": {
+        "title": "Asistencia de Emergencia",
+        "description": "Ayuda inmediata para necesidades urgentes"
+      },
+      "specialized": {
+        "title": "Recursos Especializados",
+        "description": "Artículos para bebés, comida para mascotas y dietas especiales"
+      }
+    }
+  },
+  "footer": {
+    "crisis": "¿Necesita ayuda inmediata? Llame al 211 o a la Línea de Crisis de Durham",
+    "cityOf": "Ciudad de Durham",
+    "department": "Departamento de Servicios Sociales",
+    "privacy": "Política de Privacidad",
+    "accessibility": "Accesibilidad",
+    "contact": "Contáctenos",
+    "copyright": "© {year} Ciudad de Durham, NC. Todos los derechos reservados."
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Algo salió mal",
+    "tryAgain": "Intentar de Nuevo",
+    "viewAll": "Ver Todo",
+    "learnMore": "Más Información",
+    "back": "Volver",
+    "close": "Cerrar",
+    "phone": "Teléfono",
+    "address": "Dirección",
+    "miles": "millas de distancia",
+    "today": "Hoy",
+    "tomorrow": "Mañana"
+  },
+  "days": {
+    "monday": "Lunes",
+    "tuesday": "Martes",
+    "wednesday": "Miércoles",
+    "thursday": "Jueves",
+    "friday": "Viernes",
+    "saturday": "Sábado",
+    "sunday": "Domingo"
+  }
+}

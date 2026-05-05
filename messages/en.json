@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "title": "Durham Food Help | Find Food Assistance Near You",
+    "description": "Find food pantries, soup kitchens, and food assistance programs in Durham County, NC. Search by ZIP code to find help near you."
+  },
+  "header": {
+    "title": "Durham Food Help",
+    "tagline": "City of Durham, NC",
+    "nav": {
+      "home": "Home",
+      "search": "Find Food",
+      "resources": "Resources",
+      "about": "About"
+    }
+  },
+  "hero": {
+    "title": "Find Food Assistance Near You",
+    "subtitle": "Search over 40 food pantries, soup kitchens, and meal programs in Durham County",
+    "searchPlaceholder": "Enter your ZIP code",
+    "searchButton": "Search",
+    "invalidZip": "Please enter a valid 5-digit ZIP code",
+    "stats": {
+      "pantries": "Food Pantries",
+      "meals": "Weekly Meals Served",
+      "languages": "Languages Supported"
+    }
+  },
+  "search": {
+    "title": "Food Pantries Near",
+    "resultsCount": "{count} locations found",
+    "noResults": "No food pantries found near this ZIP code",
+    "noResultsSuggestion": "Try searching a nearby Durham ZIP code",
+    "filters": {
+      "title": "Filter Results",
+      "openNow": "Open Now",
+      "walkIn": "Walk-in Welcome",
+      "languages": "Languages",
+      "services": "Services"
+    },
+    "sort": {
+      "distance": "Distance",
+      "name": "Name"
+    },
+    "neighboringCounty": "Neighboring County"
+  },
+  "pantry": {
+    "open": "Open Now",
+    "closed": "Closed",
+    "opensAt": "Opens at {time}",
+    "closesAt": "Closes at {time}",
+    "directions": "Get Directions",
+    "call": "Call",
+    "website": "Visit Website",
+    "share": "Share",
+    "walkIn": "Walk-in Welcome",
+    "appointmentRequired": "Appointment Required",
+    "lastVerified": "Last verified {date}",
+    "hours": "Hours",
+    "eligibility": "Eligibility",
+    "services": "Services",
+    "languagesSpoken": "Languages Spoken",
+    "contact": "Contact Information"
+  },
+  "resources": {
+    "title": "Additional Resources",
+    "subtitle": "Beyond food pantries, Durham offers many programs to help you and your family",
+    "categories": {
+      "government": {
+        "title": "Government Assistance",
+        "description": "Federal and state programs for food assistance"
+      },
+      "community": {
+        "title": "Community Programs",
+        "description": "Local meal programs and school nutrition"
+      },
+      "emergency": {
+        "title": "Emergency Assistance",
+        "description": "Immediate help for urgent needs"
+      },
+      "specialized": {
+        "title": "Specialized Resources",
+        "description": "Baby supplies, pet food, and special dietary needs"
+      }
+    }
+  },
+  "footer": {
+    "crisis": "Need immediate help? Call 211 or the Durham Crisis Line",
+    "cityOf": "City of Durham",
+    "department": "Department of Social Services",
+    "privacy": "Privacy Policy",
+    "accessibility": "Accessibility",
+    "contact": "Contact Us",
+    "copyright": "© {year} City of Durham, NC. All rights reserved."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "tryAgain": "Try Again",
+    "viewAll": "View All",
+    "learnMore": "Learn More",
+    "back": "Back",
+    "close": "Close",
+    "phone": "Phone",
+    "address": "Address",
+    "miles": "miles away",
+    "today": "Today",
+    "tomorrow": "Tomorrow"
+  },
+  "days": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  }
+}
