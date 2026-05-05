@@ -41,20 +41,16 @@ export function Footer() {
                   xmlns="http://www.w3.org/2000/svg"
                   aria-hidden="true"
                 >
-                  <rect x="4" y="4" width="32" height="10" fill="#C8102E" />
-                  <rect x="4" y="15" width="32" height="10" fill="#F2A900" />
-                  <rect x="4" y="26" width="32" height="10" fill="#003087" />
+                  <rect x="4" y="4" width="10" height="32" fill="#C8102E" />
+                  <rect x="15" y="4" width="10" height="32" fill="#F2A900" />
+                  <rect x="26" y="4" width="10" height="32" fill="#003087" />
                 </svg>
               </div>
               <div>
-                <div className="font-semibold">{t('cityOf')}</div>
-                <div className="text-sm text-muted-foreground">{t('department')}</div>
+
               </div>
             </div>
-            <p className="text-sm text-muted-foreground">
-              101 City Hall Plaza<br />
-              Durham, NC 27701
-            </p>
+
           </div>
 
           {/* Quick Links */}
