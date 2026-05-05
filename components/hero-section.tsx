@@ -37,7 +37,7 @@ export function HeroSection() {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-3 gap-4 max-w-lg mx-auto">
+          {/* <div className="grid grid-cols-3 gap-4 max-w-lg mx-auto">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
                 <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-white/10 mb-2">
@@ -47,7 +47,7 @@ export function HeroSection() {
                 <div className="text-xs md:text-sm text-primary-foreground/80">{stat.label}</div>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
 

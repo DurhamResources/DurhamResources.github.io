@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Durham Resource Hub | Find Food Assistance Near You",
-    "description": "Find food pantries, soup kitchens, and food assistance programs in Durham County, NC. Search by ZIP code to find help near you."
+    "description": "Find food pantries, soup kitchens, and assistance programs in Durham County, NC. Search by ZIP code to find help near you."
   },
   "header": {
     "title": "Durham Resource Hub",
@@ -20,7 +20,7 @@
   },
   "hero": {
     "title": "Find Food Assistance Near You",
-    "subtitle": "Search over 40 food pantries, soup kitchens, and meal programs in Durham County",
+    "subtitle": "Search for food pantries, meal programs, and assistance in Durham County",
     "searchPlaceholder": "Enter your ZIP code",
     "searchButton": "Search",
     "invalidZip": "Please enter a valid 5-digit ZIP code",
