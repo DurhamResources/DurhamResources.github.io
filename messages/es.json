@@ -128,7 +128,8 @@
     "address": "Dirección",
     "miles": "millas de distancia",
     "today": "Hoy",
-    "tomorrow": "Mañana"
+    "tomorrow": "Mañana",
+    "allResources": "Todos Recursos"
   },
   "days": {
     "monday": "Lunes",

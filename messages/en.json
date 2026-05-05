@@ -114,7 +114,8 @@
     "address": "Address",
     "miles": "miles away",
     "today": "Today",
-    "tomorrow": "Tomorrow"
+    "tomorrow": "Tomorrow",
+    "allResources":"View All Resources"
   },
   "days": {
     "monday": "Monday",

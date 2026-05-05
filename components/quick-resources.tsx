@@ -70,7 +70,7 @@ export function QuickResources() {
         <div className="text-center mt-10">
           <Link href="/resources">
             <Button variant="outline" size="lg" className="gap-2">
-              View All Resources
+              {tCommon('allResources')}
               <ChevronRight className="h-4 w-4" aria-hidden="true" />
             </Button>
           </Link>
