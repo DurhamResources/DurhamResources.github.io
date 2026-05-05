@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "title": "Ayuda Alimentaria de Durham | Encuentre Asistencia Cerca de Usted",
+    "title": "Centro de Recursos de Durham | Encuentre Asistencia Cerca de Usted",
     "description": "Encuentre despensas de alimentos, comedores comunitarios y programas de asistencia alimentaria en el Condado de Durham, NC. Busque por código postal para encontrar ayuda cerca de usted."
   },
   "header": {
-    "title": "Ayuda Alimentaria de Durham",
+    "title": "Centro de Recursos de Durham",
     "tagline": "Ciudad de Durham, NC",
     "nav": {
       "home": "Inicio",
@@ -114,7 +114,7 @@
     "privacy": "Política de Privacidad",
     "accessibility": "Accesibilidad",
     "contact": "Contáctenos",
-    "copyright": "© {year} Ciudad de Durham, NC. Todos los derechos reservados."
+    "copyright": "© {year} Diseñado por Favored Digital"
   },
   "common": {
     "loading": "Cargando...",

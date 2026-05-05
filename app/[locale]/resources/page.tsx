@@ -3,7 +3,7 @@ import { ResourcesContent } from '@/components/resources-content';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Additional Resources | Durham Food Help',
+  title: 'Additional Resources | Durham Resource Hub',
   description: 'Find SNAP enrollment, WIC, community meal programs, emergency assistance, and other food resources in Durham County, NC.',
 };
 

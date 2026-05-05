@@ -15,21 +15,21 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Durham Food Help | Find Food Assistance Near You',
+  title: 'Durham Resource Hub | Find Food Assistance Near You',
   description: 'Find food pantries, soup kitchens, and food assistance programs in Durham County, NC. Search by ZIP code to find help near you.',
   keywords: ['food pantry', 'Durham', 'food assistance', 'food bank', 'NC', 'North Carolina', 'SNAP', 'WIC'],
   authors: [{ name: 'City of Durham' }],
   openGraph: {
-    title: 'Durham Food Help | Find Food Assistance Near You',
+    title: 'Durham Resource Hub | Find Food Assistance Near You',
     description: 'Find food pantries, soup kitchens, and food assistance programs in Durham County, NC.',
     type: 'website',
     locale: 'en_US',
     alternateLocale: 'es_US',
-    siteName: 'Durham Food Help',
+    siteName: 'Durham Resource Hub',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Durham Food Help | Find Food Assistance Near You',
+    title: 'Durham Resource Hub | Find Food Assistance Near You',
     description: 'Find food pantries, soup kitchens, and food assistance programs in Durham County, NC.',
   },
   robots: {

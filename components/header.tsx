@@ -39,7 +39,6 @@ export function Header() {
             </div>
             <div className="hidden sm:block">
               <div className="font-semibold text-lg leading-tight">{t('title')}</div>
-              <div className="text-xs text-primary-foreground/80">{t('tagline')}</div>
             </div>
           </Link>
 

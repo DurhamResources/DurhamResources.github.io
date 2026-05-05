@@ -113,9 +113,9 @@ export function Footer() {
       {/* Copyright */}
       <div className="bg-[#003087] text-white">
         <div className="container mx-auto px-4 py-4">
-          <p className="text-center text-sm">
+          <Link href="https://www.favored.digital" target="_blank" className="text-center text-sm">
             {t('copyright', { year: currentYear })}
-          </p>
+          </Link>
         </div>
       </div>
     </footer>

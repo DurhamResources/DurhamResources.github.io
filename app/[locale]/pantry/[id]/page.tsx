@@ -15,15 +15,15 @@ export async function generateMetadata({ params }: PantryPageProps): Promise<Met
   
   if (!pantry) {
     return {
-      title: 'Pantry Not Found | Durham Food Help',
+      title: 'Pantry Not Found | Durham Resource Hub',
     };
   }
 
   return {
-    title: `${pantry.name_en} | Durham Food Help`,
+    title: `${pantry.name_en} | Durham Resource Hub`,
     description: `Find food assistance at ${pantry.name_en} located at ${pantry.address}, ${pantry.city}, NC. ${pantry.eligibility_en}`,
     openGraph: {
-      title: `${pantry.name_en} | Durham Food Help`,
+      title: `${pantry.name_en} | Durham Resource Hub`,
       description: `Find food assistance at ${pantry.name_en} in Durham, NC.`,
     },
   };
