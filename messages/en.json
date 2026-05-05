@@ -143,6 +143,13 @@
     "Frozen Foods": "Frozen Foods",
     "Dairy": "Dairy",
     "Bread": "Bread",
-    "USDA Commodities": "USDA Commodities"
+    "USDA Commodities": "USDA Commodities",
+    "hot meals": "Hot Meals",
+    "food pantry": "Food Pantry",
+    "clothing": "Clothing",
+    "shelter": "Shelter",
+    "case management": "Case Management",
+    "fresh produce": "Fresh Produce",
+    "baby food": "Baby Food"
   }
 }

@@ -1,5 +1,6 @@
 'use client';
 
+import { Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { useMemo } from 'react';
 import { SearchResults } from '@/components/search-results';
@@ -37,11 +38,13 @@ export default function SearchPage() {
   }, [zip]);
 
   return (
+    <Suspense fallback={<div>Loading...</div>}>
     <SearchResults
       pantries={filteredPantries}
       zipCode={zipCode}
       center={coords}
       locale={locale}
     />
+    </Suspense>
   );
 }

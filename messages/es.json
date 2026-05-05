@@ -40,7 +40,14 @@
       "openNow": "Abierto Ahora",
       "walkIn": "Sin Cita Previa",
       "languages": "Idiomas",
-      "services": "Servicios"
+      "services": "Servicios",
+      "hot meals": "Comidas Calientes",
+      "food pantry": "Despensa de Alimentos",
+      "clothing": "Ropa",
+      "shelter": "Refugio",
+      "case management": "Gestión de Casos",
+      "fresh produce": "Productos Frescos",
+      "baby food": "Comida para Bebés"
     },
     "sort": {
       "distance": "Distancia",
@@ -64,7 +71,14 @@
     "eligibility": "Requisitos",
     "services": "Servicios",
     "languagesSpoken": "Idiomas Disponibles",
-    "contact": "Información de Contacto"
+    "contact": "Información de Contacto",
+    "hot meals": "Comidas Calientes",
+    "food pantry": "Despensa de Alimentos",
+    "clothing": "Ropa",
+    "shelter": "Refugio",
+    "case management": "Gestión de Casos",
+    "fresh produce": "Productos Frescos",
+    "baby food": "Comida para Bebés"
   },
   "resources": {
     "title": "Recursos Adicionales",
@@ -143,6 +157,13 @@
     "Frozen Foods": "Alimentos Congelados",
     "Dairy": "Lácteos",
     "Bread": "Pan",
-    "USDA Commodities": "Productos del USDA"
+    "USDA Commodities": "Productos del USDA",
+    "hot meals": "Comidas Calientes",
+    "food pantry": "Despensa de Alimentos",
+    "clothing": "Ropa",
+    "shelter": "Refugio",
+    "case management": "Gestión de Casos",
+    "fresh produce": "Productos Frescos",
+    "baby food": "Comida para Bebés"
   }
 }
