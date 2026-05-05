@@ -145,7 +145,7 @@ export function ResourcesContent({ locale }: ResourcesContentProps) {
               {locale === 'es' ? 'Llame al 211' : 'Call 211'}
             </Button>
           </a>
-          <a href="tel:9195607100">
+          <a href="tel:9195608000">
             <Button size="lg" className="bg-white text-[#C8102E] hover:bg-white/90 gap-2">
               <Phone className="h-5 w-5" />
               {locale === 'es' ? 'Línea de Crisis de Durham' : 'Durham Crisis Line'}
